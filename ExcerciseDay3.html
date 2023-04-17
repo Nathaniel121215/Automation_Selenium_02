@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>The Window Object</h1>
+<h2>The alert() Method</h2>
+
+<p>Click the button to see line-breaks in an alert box.</p>
+
+<button onclick="myFunction()">Try it</button>
+
+<button onclick="window.open('https://w3docs.com', '_blank')">
+  Click Here
+</button>
+<br></br>
+<iframe srcdoc='
+  <!DOCTYPE html>
+  <html>
+  <head>
+    <title>IFrame Button Example</title>
+  </head>
+  <body>
+    <button onclick="myFunction()">Click Me</button>
+
+    <script>
+      function myFunction() {
+        alert("Hello\nHow are you??????????");
+      }
+      </script>
+  </body>
+
+
+  </html>'
+  width="600" height="400" title="IFrame Example" style="border: 1px solid black;">
+
+</iframe>
+
+
+
+<script>
+function myFunction() {
+  alert("Hello\nHow are you?");
+}
+</script>
+
+</body>
+</html>
